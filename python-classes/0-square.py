@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-'''this is document of class'''
+"""This is documentation of the class."""
 
 
 class Square:
- '''This is trojan'''
+    """This is a Square class."""
+
     def __init__(self, size):
         self.__size = size
