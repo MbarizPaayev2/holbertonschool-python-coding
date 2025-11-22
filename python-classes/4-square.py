@@ -7,7 +7,7 @@ class Square:
 
     def __init__(self, size=0):
         """Initialize the square with optional size."""
-        self.size = size  
+        self.size = size
 
     @property
     def size(self):
@@ -34,4 +34,3 @@ class Square:
             return
         for _ in range(self.size):
             print("#" * self.size)
-
